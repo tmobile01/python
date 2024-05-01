@@ -1,0 +1,11 @@
+@This will calculate your age using python.
+import datetime
+Year = int(input("What year were you born? "))
+Month = int(input("What month were you born? "))
+Day = int(input("What day were you born? "))
+DOB = datetime.datetime(Year,Month,Day)
+Age = (datetime.datetime.now() - DOB)
+print("You are " + str(Age.days) + " days old")
+convertdays = int(Age.days)
+AgeYears = convertdays/365
+print("Or" + str(AgeYears) + "years old to be less precise")
