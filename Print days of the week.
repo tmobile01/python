@@ -1,0 +1,4 @@
+Days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+for Days in Days:
+  print(Days)
+  print(Days + " Saturday")
