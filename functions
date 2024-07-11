@@ -1,0 +1,6 @@
+def my_function():
+  print("Hello")
+  print("Bye")
+  print("Tomarr")
+
+my_function()
